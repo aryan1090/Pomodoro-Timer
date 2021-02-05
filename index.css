@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #EAC289;
+    min-height: 100vh;
+}
+/* height of 460px and width of 220px; */
+.container{
+    background-color: #4A4135;
+    width:220px;
+    height:460px;
+    opacity: 0.95;
+    margin: 10% 40%;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 80px 10px;
+}
+/* .container:hover{
+    transform: scale(1.25,1.25);
+    box-shadow: 10px 10px 20px 20px;
+} */
+.display{
+    position: relative;
+    background-color: white;
+    width:50%;
+    margin: auto;
+    padding:20px;
+    height:150px;
+    border: 10px solid #636361;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#time{
+    color:#03A1B1;
+    margin: auto;
+}
+.session{
+    text-align:center;
+    /* border:2px solid red; */
+    color:white;
+    padding: 10px;
+}
+.timer{
+    /* border: 2px solid black; */
+    display:flex;
+    border-top: 2px dotted grey;
+    border-bottom: 2px dotted grey;
+    margin:0px 10%;
+}
+#sessiontime{
+    /* border:2px solid red; */
+    text-align: center;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+    
+}
+#breaktime{
+    /* border:2px solid pink; */
+    text-align: center;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    color:white;
+    padding: 10px;
+}
+#sessionvalue{
+    color: #178088;
+}
+#breakvalue{
+    color:#BF5C3D;
+}
+.add{
+    color:white;
+    height:20px;
+    width: 30px;
+    background-color: #1d1917;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.sub{
+    color:white ;
+    height: 20px;
+    width: 30px;
+    background-color: #1C1815;
+    border-radius:5px ;
+    outline: none;
+    border: none;
+}
+.buttons{
+    margin: 0px 10%;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#start{
+    color: white;
+    float: left;
+    padding:7px;
+    background-color: #1C1815;
+    border-radius:5px ;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+#reset{
+    color: white;
+    float: right;
+    padding:7px;
+    background-color: #1C1815;
+    border-radius:5px ;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
